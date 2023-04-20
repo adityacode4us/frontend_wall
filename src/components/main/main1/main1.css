@@ -1,0 +1,72 @@
+.main1{
+    width: 100%;
+    /* height is yet to be defined */
+}
+.main1 .header{
+
+}
+
+.main1 .lists{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.main1 .lists .item{
+    margin-top: 32px;
+    width: 201px;
+    height: 148px;
+    /* background-color: rgba(17, 17, 17, 1); */
+    background-image: linear-gradient(to right,rgba(75, 223, 255, 0.1),rgba(17,17,17)),
+                      linear-gradient(to bottom,rgba(75, 223, 255, 0.1),rgba(17,17,17));
+    border-radius: 16px;
+    padding: 12px;
+    margin-right: 16px;
+}
+.main1 .lists .item .title{
+    display: flex;
+    width: 181px;
+    height: 56px;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+.main1 .lists .item .title .logo{
+    background: url('../../../assets/main/main1/title1.png');
+    width: 52px;
+    height: 52px;
+    margin-right: 15px;
+}
+.main1 .lists .item .title .info{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.main .lists .item .content1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.main .lists .item .content1 .left{
+    width: 87px;
+    height: 20px;
+}
+.main .lists .item .content1 .right{
+    width: 41px;
+    height: 20px;
+}
+.main .lists .item .content2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.main .lists .item .content1 .time{
+    width: 87px;
+    height: 20px;
+}
+.main .lists .item .content1 .point{
+    width: 47px;
+    height: 20px;
+}
