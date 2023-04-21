@@ -1,5 +1,6 @@
 import React from 'react'
 import './sidebar.css'
+import {data as info} from '../../json/sidebar/data.json'
 
 const Sidebar = () => {
   return (
@@ -12,58 +13,42 @@ const Sidebar = () => {
                     </div>
                 </div>
                 <div className="textlvl">
-                    LVL 2
+                    LVL {info.level}
                 </div>
             </div>
             <div className="right">
-                <div className="h">dingaling.eth</div>
-                <div className="p">Oxadgf....jkld</div>
+                <div className="h">{info.name}</div>
+                <div className="p">{info.nickname}</div>
             </div>
         </div>
         <div className="social">
             <div className="name">
                 <div className="image"></div>
-                <div className="handle">dingalingts</div>
+                <div className="handle">@{info.handlename}</div>
             </div>
             <div className="web"></div>
         </div>
         <div className="content">
-        An Investor / Collector of #NFTs and OG enthusiast. Co-Founder and owner of 📦 @nftboxes
+        {info.user_description}
         </div>
         <div className="common_communities">
             <p>Common Communitites (3)</p>
             <div className="list">
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
-                <div className="item"></div>
+                {info.communities.map((community)=>{
+                    return <div className="item" style={{background:`url(${community.url})`}}></div>
+                })}
+                
             </div>
         </div>
         <div className="contribution">
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
+            {info.fields.map((field)=>{
+                return <div className="item" style={{border:`1px solid ${field.color}`,color:field.color==="rgba(255, 193, 72, 1)"?"rgba(255, 193, 72, 1)":"rgba(162, 162, 162, 1)"}}>
+                <div className="name">{field.field_name}</div>
+                <div className="percentage">{field.field_percentage}%</div>
             </div>
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
-            </div>
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
-            </div>
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
-            </div>
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
-            </div>
-            <div className="item">
-                <div className="name">Art</div>
-                <div className="percentage">12%</div>
-            </div>
+            })}
+            
+           
         </div>
         <div className='subscribe'>
             <p>Subscribe</p>

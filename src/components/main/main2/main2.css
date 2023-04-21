@@ -18,7 +18,7 @@ margin-right: 16px;
     height: 193px;
 }
 .main2 .item .top .image{
-    background: url('../../../assets/main/main2/1.png');
+    /* background: url('../../../assets/main/main2/1.png'); */
     height: 100%;
     width: 100%;
 }
@@ -52,9 +52,32 @@ align-items: center;
 justify-content: space-between;
 margin-bottom: 10px;
 }
+.main2 .item .content .bought .right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45px;
+}
+.main2 .item .content .bought .right .img{
+    width: 12px;
+    height: 12px;
+    background: url('../../../assets/1.png');
+}
 .main2 .item .content .floor{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+}
+.main2 .item .content .floor .right{
+    width: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+.main2 .item .content .floor .right .center{
+    width: 12px;
+    height: 12px;
+    background: url('../../../assets/1.png');
 }

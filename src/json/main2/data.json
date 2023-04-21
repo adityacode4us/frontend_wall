@@ -1,0 +1,49 @@
+{"data":[
+    {
+        "name":"AZUKI #9839",
+        "one_name":"Bought",
+        "one_content":"02.82",
+        "two_name":"Floor",
+        "two_content":"12.74 +21.6%",
+        "color":"rgba(25, 237, 123, 1)",
+        "url":"./src/assets/main/main2/1.png"
+    },
+    {
+        "name":"MAYC #9839",
+        "one_name":"Bought",
+        "one_content":"02.82",
+        "two_name":"Floor",
+        "two_content":"12.74 +21.6%",
+        "color":"rgba(25, 237, 123, 1)",
+        "url":"./src/assets/main/main2/2.png"
+    },
+    {
+        "name":"MoonBirds #9839",
+        "one_name":"Bought",
+        "one_content":"02.82",
+        "two_name":"Floor",
+        "two_content":"12.74 +21.6%",
+        "color":"rgba(25, 237, 123, 1)",
+        "url":"./src/assets/main/main2/3.png"
+    },
+    {
+        "name":"Otherdeed #9839",
+        "one_name":"Bought",
+        "one_content":"02.82",
+        "two_name":"Floor",
+        "two_content":"12.74 +21.6%",
+        "color":"rgba(25, 237, 123, 1)",
+        "url":"./src/assets/main/main2/4.png"
+    },
+    {
+        "name":"Cryptoz #9839",
+        "one_name":"Bought",
+        "one_content":"02.82",
+        "two_name":"Floor",
+        "two_content":"12.74 +21.6%",
+        "color":"rgba(25, 237, 123, 1)",
+        "url":"./src/assets/main/main2/5.png"
+    }
+   
+]
+}

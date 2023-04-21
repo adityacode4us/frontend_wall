@@ -1,5 +1,6 @@
 .main1{
-    width: 100%;
+    width: 1070px;
+    height: 200px;
     /* height is yet to be defined */
 }
 .main1 .header{
@@ -15,9 +16,14 @@
     margin-top: 32px;
     width: 201px;
     height: 148px;
-    /* background-color: rgba(17, 17, 17, 1); */
-    background-image: linear-gradient(to right,rgba(75, 223, 255, 0.1),rgba(17,17,17)),
-                      linear-gradient(to bottom,rgba(75, 223, 255, 0.1),rgba(17,17,17));
+    background-color: rgba(17, 17, 17, 1);
+    /* background-image: linear-gradient(to right,rgba(75, 223, 255, 0.1),rgba(17,17,17)),
+                      linear-gradient(to top,rgba(17,17,17),rgba(75, 223, 255, 0.1)); */
+     /* background: linear-gradient(to bottom right, #ff0000 0%, #ff0000 50%, #000000 50%, #000000 100%);; */
+     background:linear-gradient(to bottom right,rgba(75, 223, 255, 0.1)  , rgba(17,17,17) );
+     background-position: 0px 0px;
+     background-repeat: no-repeat;
+     background-size:201px 148px;
     border-radius: 16px;
     padding: 12px;
     margin-right: 16px;
@@ -49,12 +55,21 @@
     margin-top: 16px;
 }
 .main .lists .item .content1 .left{
-    width: 87px;
+    /* width: 87px; */
     height: 20px;
+    font-size: 14px;
 }
 .main .lists .item .content1 .right{
     width: 41px;
     height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main .lists .item .content1 .right .img{
+    width: 12px;
+    height: 12px;
+    background: url('../../../assets/1.png');
 }
 .main .lists .item .content2{
     display: flex;

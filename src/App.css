@@ -1,13 +1,19 @@
 #root {
-  max-width: 1280px;
+  /* max-width: 1280px; */
 }
 body{
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: #1E1E1E;
+  /* margin: auto; */
+  display: flex;
+  justify-content: center;
 }
 .container{
-  width: 100%;
+  width: 1420px;
+  max-height: 640px;
+  display: flex;
+  flex-direction: row;
 }
 
 
