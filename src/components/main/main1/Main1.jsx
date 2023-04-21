@@ -17,7 +17,7 @@ const Main1 = () => {
                     <div className="logo" style={{background:`url(${d.url})`}}></div>
                     <div className="info">
                         <div className="first">{d.name}</div>
-                        <div className="second" style={{color:`${d.color}`}}>{d.nickname}</div>
+                        <div className="second" style={{color:`${d.color_text}`}}>{d.nickname}</div>
                     </div>
                 </div>
                 <div className="content1">
