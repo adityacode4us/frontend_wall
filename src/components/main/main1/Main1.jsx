@@ -10,7 +10,9 @@ const Main1 = () => {
         </div>
         <div className="lists">
             {data.map((d)=>{
-                return <div className="item">
+                return <div className="item" style={{
+                    background:`linear-gradient(to bottom right,${d.color}  , rgba(17,17,17) )`
+                }}>
                 <div className="title">
                     <div className="logo" style={{background:`url(${d.url})`}}></div>
                     <div className="info">

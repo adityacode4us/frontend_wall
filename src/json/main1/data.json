@@ -6,7 +6,7 @@
         "one_content":"1.82",
         "two_day":"2 months ago",
         "two_content":"+200XP",
-        "color":"rgba(75, 223, 255, 1)",
+        "color":"rgba(75, 223, 255, 0.1)",
         "time_color":"#19ED7B",
         "url":"./src/assets/main/main1/1.png"
         
@@ -18,7 +18,7 @@
         "one_content":"99.5",
         "two_day":"10 days ago",
         "two_content":"+150XP",
-        "color":"rgba(255, 193, 72, 1)",
+        "color":"rgba(255, 193, 72, 0.1)",
         "time_color":"#19ED7B",
         "url":"./src/assets/main/main1/2.png"
         
@@ -30,7 +30,7 @@
         "one_content":"98.5",
         "two_day":"10 days ago",
         "two_content":"+200XP",
-        "color":"rgba(68, 255, 200, 1)",
+        "color":"rgba(68, 255, 200, 0.1)",
         "time_color":"#19ED7B",
         "url":"./src/assets/main/main1/3.png"
         
@@ -42,7 +42,7 @@
         "one_content":"98.5",
         "two_day":"10 days ago",
         "two_content":"+10XP",
-        "color":"rgba(75, 223, 255, 1)",
+        "color":"rgba(75, 223, 255, 0.1)",
         "time_color":"#19ED7B",
         "url":"./src/assets/main/main1/4.png"
         
@@ -54,7 +54,7 @@
         "one_content":"98.5",
         "two_day":"10 days ago",
         "two_content":"+200XP",
-        "color":"rgba(68, 255, 200, 1)",
+        "color":"rgba(68, 255, 200, 0.1)",
         "time_color":"#19ED7B",
         "url":"./src/assets/main/main1/5.png"
         

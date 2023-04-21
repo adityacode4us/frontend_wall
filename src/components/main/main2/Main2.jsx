@@ -31,7 +31,7 @@ const Main2 = () => {
                         <p className='right'>
                             <div className="first">12.74</div>
                             <div className="center"></div>
-                            <div className="last">+21.6%</div>
+                            <div className="last" style={{color:`${d.color}`}}>+21.6%</div>
                         </p>
                     </div>
                 </div>
